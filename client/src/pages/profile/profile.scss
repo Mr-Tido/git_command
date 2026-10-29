@@ -1,0 +1,45 @@
+.profile_space{
+    width: 100%;
+    height: 800px;
+    background-color: #2F2F31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .profile_workspace{
+        width: 68%;
+        height: 80%;
+        display: flex;
+
+        >img{
+            height: 60%;
+            width: 30%;
+        }
+
+        >div{
+            margin-left: 10%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+           >p{
+            font-family: 'Arc';
+            color: white;
+            font-size: 20px;
+            } 
+
+            >button{
+                width: 200px;
+                height: 50px;
+                border: none;
+                background-color: gray;
+                color: white;
+                font-size: 20px;
+                font-family: 'Arc';
+                cursor: pointer;
+            }
+        }
+        
+        
+    }
+}
